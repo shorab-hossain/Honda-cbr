@@ -1,0 +1,75 @@
+/*----- google-font------ */
+*{
+    margin: 0;
+    padding: 0;
+}
+body{}
+/*-------- header-section ---------*/
+header{
+    background-color: #264653;
+    height: 100%;
+    width: 100%;
+}
+.menu-btn{
+    background-color: #E76F51;
+}
+.font-color{
+    color: #E0E0E0;
+}
+.title{
+     font-size: 48px;
+     line-height: 72px;
+
+}
+/* main-part */
+.img-bike{
+    width: 280px;
+    height: 250px;
+}
+.small-heading{
+    color: #E76F51;
+    text-align: center;
+  
+}
+.section-title{
+    position: relative;
+}
+.section-title small::after{
+    content: "";
+    position: absolute;
+    left: 0;
+    right: 0;
+    margin: 0 auto;
+    width: 10%;
+    height: 7px;
+    top: 170px;
+    border-radius: 25px;
+    background-color: #E76F51;
+}
+.grayscale{
+    -moz-filter: url("data:image/svg+xml;utf8,<svg xmlns=\'http://www.w3.org/2000/svg\'><filter id=\'grayscale\'><feColorMatrix type=\'matrix\' values=\'0.3333 0.3333 0.3333 0 0 0.3333 0.3333 0.3333 0 0 0.3333 0.3333 0.3333 0 0 0 0 0 1 0\'/></filter></svg>#grayscale");
+    -o-filter: url("data:image/svg+xml;utf8,<svg xmlns=\'http://www.w3.org/2000/svg\'><filter id=\'grayscale\'><feColorMatrix type=\'matrix\' values=\'0.3333 0.3333 0.3333 0 0 0.3333 0.3333 0.3333 0 0 0.3333 0.3333 0.3333 0 0 0 0 0 1 0\'/></filter></svg>#grayscale");
+    -webkit-filter: grayscale(100%);
+    filter: gray;
+    filter: url("data:image/svg+xml;utf8,<svg xmlns=\'http://www.w3.org/2000/svg\'><filter id=\'grayscale\'><feColorMatrix type=\'matrix\' values=\'0.3333 0.3333 0.3333 0 0 0.3333 0.3333 0.3333 0 0 0.3333 0.3333 0.3333 0 0 0 0 0 1 0\'/></filter></svg>#grayscale");
+}
+
+/* clients-say */
+.client-image{
+    width: 50%;
+}
+.star-icon{
+    color: #E76F51;
+}
+.rounded-img{
+   height: 100%;
+}
+/* faq-img */
+.faq-img{
+    width: 431px;
+    height: auto;
+    background-position: fixed;
+}
+.accordion-item{
+    overflow: hidden;
+}
